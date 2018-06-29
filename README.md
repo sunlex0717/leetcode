@@ -1,2 +1,5 @@
-# leetcode
-My leetcode programming exercise repository 
+# LeetCode
+
+my LeetCode programming exercise
+
+### two sum
