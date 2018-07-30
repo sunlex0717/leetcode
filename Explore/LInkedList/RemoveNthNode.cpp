@@ -30,13 +30,13 @@ public:
             return head;
         }
         //ListNode* to_remove = nodevector[len-n];
-        ListNode* prev_remove = nodevector[len-n-1]
+        ListNode* prev_remove = nodevector[len-n-1];
         
         if(n==1){//remove the final one
             prev_remove->next = NULL;
             return head;
         }
-        ListNode* next_remove = nodevector[len-n+1]
+        ListNode* next_remove = nodevector[len-n+1];
         prev_remove->next = next_remove;
         return head;
 
