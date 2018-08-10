@@ -11,7 +11,6 @@
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-
         ListNode* black_node = head;
         ListNode* next;
         

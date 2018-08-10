@@ -14,4 +14,13 @@
 > This problem can be solved recursively or iteratively, I prefer iteration because I believe it is safer than recursion. The basic idea is that you can choose the original head node as the black node and then move its next node to the head iteratively until it reaches the end node.
 * Remove Linked List Elements.
 > This problem is easy, using two pointer tech can solve it without too much efforts, but you should be careful of the corner case.
+
 * Odd Even Linked List.
+> This problem is easy if you know the trick : two pointer tech, reorder odd and even respectively and then link them together . Otherwise if might be complex.
+
+* Palindrome Linked List
+> Solving this problem is not hard if you do not care about the space complexity and time complexity. It can be easily solved by firstly storing the nodes in vector and then reversing the list. Checking the values of reversed list and original values in the vector to see if they are equal. However, if you want to solve it using less memory space(e.g. in-space tech), you should think more and do some math on your draft paper. And this problem will be much harder. 
+
+## Conclusion
+* Merge Two Sorted Lists
+> use a dummy node. this problem is east, details can be found in code
