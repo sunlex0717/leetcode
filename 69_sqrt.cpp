@@ -1,3 +1,4 @@
+// Binary Search
 class Solution {
 public:
     int mySqrt(int x) {
@@ -17,5 +18,16 @@ public:
           left = mid + 1;
         }
       }
+    }
+};
+
+// Newton method
+class Solution {
+public:
+    int mySqrt(int x) {
+      long r = x;
+      while (r*r > x)
+        r = (r + x/r) / 2;
+      return r;
     }
 };
