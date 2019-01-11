@@ -1,6 +1,7 @@
 // OPT(i) = min{opt(i-1) + cost[i-1], opt(i-2) + cost[i-2]}
 // opt(0) = 0; opt(1) = 0; end : opt(cost.size())
 #include<algorithm>
+#include<THC/THC.h>
 class Solution {
 public:
     int minCostClimbingStairs(vector<int>& cost) {
